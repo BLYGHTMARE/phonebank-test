@@ -1,0 +1,71 @@
+.retro-phone-window {
+    background: #c0c0c0;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.phone-display {
+    background: #98a891;
+    color: #000;
+    font-family: "Nokia Cellphone FC";
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.phone-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.phone-keypad button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.phone-keypad button:hover {
+    background: #444;
+}
+
+.phone-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-call, .phone-phonebook {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phone-call {
+    background: #4CAF50;
+    color: white;
+}
+
+.phone-phonebook {
+    background: #2196F3;
+    color: white;
+}
+
+.retro-phone-button {
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.phone-chat-window {
+    background: #98a891;
+    font-family: "Nokia Cellphone FC";
+    padding: 10px;
+} 
