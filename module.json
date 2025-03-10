@@ -1,6 +1,6 @@
 {
-  "id": "phonebank-test",
-  "title": "phonebank  test",
+  "id":"phonebank-test",
+  "title": "phonebank-test",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
